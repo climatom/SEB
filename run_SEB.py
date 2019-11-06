@@ -1,11 +1,22 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Processes the input and 
+Computes the enery balance. 
+
+Notes that computation requires: 
+    
+    - Temp (in K)
+    - Pressure (in Pa)
+    - RH (fraction)
+    - Ws (m/s)
+    - Incident short/longwave radiation (W/m**2)
+    - Reflected shortwave radiation (for QA purposes)
+    
 """
+# SEB code repository
 import core # Library of SEB computation
 import seb_utils # Library of helper functions (e.g. convert met vars)
-
+# Public modules
 import pandas as pd
 import numpy as np
 import datetime
