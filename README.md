@@ -3,7 +3,7 @@ This repository contains code to model the surface energy balance (SEB) of glaci
 
 Briefly: 
 
-- 'core.py' contains the core numerical routines for solving the energy balance; 
+- 'core.py' contains the core numerical routines for solving the energy balance 
 - 'seb_utils.py' has helper functions to manipulate the met data
 - 'run_seb.py' provides an example invocation of the routines to compute the energy balance (and melt/ablation)
 
